@@ -2,7 +2,7 @@
   justify-content: space-between;
 }
 .user-component,
-.user-component__column:first-child {
+.user-component__column {
   display: flex;
   align-items: center;
 }
@@ -33,7 +33,15 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+.user-component__column:nth-child(2) span {
+  margin-right: 3px;
+}
 
-.user-component__column:last-child {
+.user-component__column:nth-child(3) {
   color: #777;
+  flex-direction: column;
+}
+.user-component__column:nth-child(3) span {
+  opacity: 0.7;
+  margin-top: 5px;
 }
