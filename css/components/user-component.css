@@ -20,6 +20,12 @@
   margin-top: 8px;
   font-size: 17px;
   font-weight: 500;
+  opacity: 0.5;
+}
+.user-component__subtitle i {
+  margin-top: 10px;
+  padding-left: 5px;
+  color: tomato;
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -44,4 +50,7 @@
 .user-component__column:nth-child(3) span {
   opacity: 0.7;
   margin-top: 5px;
+}
+.user-component__column .fa-stream {
+  opacity: 0.9;
 }

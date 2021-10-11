@@ -1,0 +1,79 @@
+.more-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+.more-icons__icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100px;
+  align-items: center;
+}
+.more-icons__icon i {
+  margin-top: 20px;
+}
+.more-icons__icon:nth-child(2) {
+  position: relative;
+}
+.more-icons__icon span {
+  opacity: 0.8;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.more-icons__icon:nth-child(2) span:nth-child(2) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+.more-suggestions {
+  margin: 30px 0;
+  border-top: var(--border-opacity);
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+}
+.more-suggestions__icon i {
+  padding: 10px;
+  border-radius: 10px;
+}
+.more-suggestions__icon span {
+  opacity: 0.8;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.more-suggestions__icon:first-child i {
+  background-color: tomato;
+  color: black;
+}
+.more-suggestions__icon:nth-child(2) i {
+  background-color: yellowgreen;
+  color: black;
+}
+.more-suggestions__icon:last-child i {
+  background-color: teal;
+  color: black;
+  position: relative;
+}
+.more-suggestions__icon:last-child i span {
+  padding: 1px;
+  font-size: 1px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: red;
+}
