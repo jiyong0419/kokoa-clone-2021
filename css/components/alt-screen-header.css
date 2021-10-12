@@ -2,14 +2,26 @@
   padding: 45px 20px 20px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  background-color: #abc1d1;
 }
 .alt-screen-header__title {
   font-size: 28px;
   font-weight: 600;
 }
-.alt-screen-header__column:first-child {
-  margin-right: auto;
+.alt-screen-header__column {
+  width: 33%;
+}
+.alt-screen-header__column:nth-child(2) {
+  text-align: center;
 }
 .alt-screen-header__column:last-child {
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-screen-header__column:last-child i:last-child {
+  margin-left: 10px;
 }
