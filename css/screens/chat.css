@@ -9,7 +9,7 @@
   align-items: center;
 }
 .chat-screen .status-bar {
-  z-index: 1;
+  z-index: 2;
   background-color: #abc1d1;
 }
 .chat__timestamp {
@@ -72,7 +72,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 25px;
+  padding: 5px 25px 5px 0;
   align-items: center;
   box-sizing: border-box;
 }
@@ -80,10 +80,12 @@
   opacity: 0.5;
 }
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 60px;
+  display: flex;
+  justify-content: center;
 }
 .reply .reply__column:last-child {
-  width: 90%;
+  width: 100%;
   position: relative;
 }
 
